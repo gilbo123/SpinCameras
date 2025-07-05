@@ -12,7 +12,7 @@ import PySpin
 from PyspinCameras.CamEventHandler import CamImageEventHandler
 from PyspinCameras.CamReset import CamReset
 
-__version__ = toml_load("pyproject.toml")["project"]["version"]
+# __version__ = toml_load("pyproject.toml")["project"]["version"]
 
 @dataclass
 class Camera:
